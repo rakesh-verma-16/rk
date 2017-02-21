@@ -1,0 +1,9 @@
+<%= form_for(@post) do |f| %>
+  <p>
+    <b>Message</b><br>
+    <%= f.message :message %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
